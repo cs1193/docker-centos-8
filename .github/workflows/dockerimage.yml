@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: docker/build-push-action@v1
+    - uses: actions/checkout@v2
 
     - name: Build the Docker image
       run: docker build . --file centos-8.Dockerfile --tag cs1193/centos-8:$(date +%s)
