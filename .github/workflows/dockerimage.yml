@@ -1,4 +1,4 @@
-name: CentOS 8 Docker Image Build
+name: cs1193/centos-8
 
 on:
   push:
