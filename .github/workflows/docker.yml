@@ -18,6 +18,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Install Dependencies
+      run:
+        sudo add-apt-repository ppa:rmescandon/yq
+        sudo apt update -y
+        sudo apt install yq -y
+
     - name: Login to Docker Registry
       run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
 
