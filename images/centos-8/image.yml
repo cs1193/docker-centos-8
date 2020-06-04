@@ -1,12 +1,15 @@
+author:
+  name: Chandresh Rajkumar Manonmani
+  nickname: cs1193
+  email:
+    - cs1193@gmail.com
+  url:
+    - chandreshrm.name
+    - cs1193.github.com
+
 metadata:
   image_name: centos-8
+  image_file: centos-8.Dockerfile
   scope: cs1193
   dependencies:
-  author:
-    name: Chandresh Rajkumar Manonmani
-    nickname: cs1193
-    email:
-      - cs1193@gmail.com
-    url:
-      - chandreshrm.name
-      - cs1193.github.com
+  build_args:
