@@ -1,2 +1,2 @@
 build-images:
-	./build-scripts/build.sh ./images/centos-8
+	./docker-scripts/build.sh ./images/centos-8

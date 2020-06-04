@@ -1,0 +1,4 @@
+[submodule "docker-scripts"]
+	path = docker-scripts
+	url = https://github.com/cs1193/docker-scripts
+	branch = master
