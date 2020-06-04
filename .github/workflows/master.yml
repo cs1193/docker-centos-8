@@ -1,4 +1,4 @@
-name: cs1193/centos-8
+name: docker-centos-8/master
 
 on:
   push:
